@@ -22,11 +22,11 @@
 	
 		
 	#main-header {
-		background: #59153d;
+		background: #004eb7;
 		height: 80px;
 	}
 	#main-header a {
-		color: #ffffff;
+		color: #000000;
 	}
 	#logo-header {
 		float: left;
@@ -60,13 +60,13 @@
 	#main-content {
 		background: white;
 		width: 200%;
-		max-width: 800px;
+		max-width: 1100px;
 		margin: 40px auto;
 		box-shadow: 0 0 10px rgba(0,0,0,.1);
-		background: #480002;/*cuadro medio*/
+		background: #3c2fdf;
 	}
 	#main-footer {
-		background: #520c0f;
+		background: #2d00fd;
 		text-align: center;
 		padding: 10px;
 		margin-top: 10px;
@@ -75,22 +75,22 @@
 		margin: 0;
 	}
 	#main-footer a {
-		color: #ffffff;
+		color: #000000;
 	}
 	#main-header {
-		background: #9e2364;
+		background: #6f50fe;
 		height: 80px;
-		width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-		left: 0; /* Posicionamos la cabecera al lado izquierdo */
-		top: 0; /* Posicionamos la cabecera pegada arriba */
-		position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+		width: 100%; 
+		left: 0; 
+		top: 0; 
+		position: fixed; 
 	}
 	body {
 		margin: 0;
 		padding: 0;
 		font-family: Helvetica, Arial, sans-serif;
-		background: #000000; 
+		background: #73e3fb; 
 		font-size: 1em;
 		line-height: 1.5em;
-		padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+		padding-top: 80px; 
 	}
